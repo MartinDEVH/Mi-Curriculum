@@ -7,10 +7,10 @@ body{
     padding-top: 70px;
 }
 header{
-    background-color: rgb(100, 159, 236);
+    background-color:#333;
     text-align: center;
     padding: 20px;
-    color: #f1f1f1;
+    color: #f1e5e5;
 }
 main{
     margin: 30px 100px;
@@ -28,7 +28,7 @@ nav a{
 }
 section{
     padding: 10px;
-    border-bottom: 2px rgb(100, 159, 236) solid;
+    border-bottom: 2px #333 solid;
 }
 .menu-fijo{
     position: fixed; 
@@ -36,8 +36,8 @@ section{
     left: 0;
     width: 100%;
     z-index: 10;
-    background-color: rgb(100, 159, 236);
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    background-color: rgb(170, 185, 207);
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
     font-weight: bold;
    
 }
@@ -67,3 +67,31 @@ section{
     background-color: antiquewhite;
     border-radius: 40px;
 }
+#contacto form{
+    margin: auto;
+    width: 500px;
+
+}
+#contacto form input,
+#contacto form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+#contacto form input[type="submit"]{
+    margin-left: 2%;
+    background-color: #333; 
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 15px
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: re;
+}
+
